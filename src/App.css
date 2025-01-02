@@ -1,0 +1,7 @@
+body {
+    background: linear-gradient(to right, rgb(45, 212, 191), rgb(254, 240, 138));
+    /* or using hex codes */
+    /* background: linear-gradient(to right, #2DD4BF, #FEF08A); */
+    margin: 0;
+    min-height: 100vh;
+  }
