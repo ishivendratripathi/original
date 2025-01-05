@@ -8,10 +8,10 @@ const Nav = () => {
       <img className="h-12 mr-10 mt-2" src={logo} alt="" />
       <div className='flex gap-6 mt-4'>
         {sidebar.map((a) => (
-          <div key={a.name} className='flex items-center gap-2'>
+          <button key={a.name} className='flex items-center gap-2'>
             <span>{a.hero}</span>
             <span>{a.name}</span>
-          </div>
+          </button>
         ))}
       </div>
     </div>
